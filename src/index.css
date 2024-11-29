@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --color-primary: 255, 228, 225;
+    --color-primary-gold: 255, 215, 0;
+    --color-primary-brown: 139, 69, 19;
+    --color-primary-cherry: 255, 183, 197;
+  }
+}
+
+body {
+  font-family: 'Noto Sans', sans-serif;
+}
